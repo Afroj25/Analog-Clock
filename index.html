@@ -30,10 +30,11 @@
         let hh = day.getHours()* 30;
         let mm = day.getMinutes()*deg;
         let ss = day.getSeconds()*deg;
+        hh=hh+ mm/ss
 
-        hr.style.transform = `rotatez( ${hh+ mm/ss})`;
-        mn.style.transform = `rotatez(${mm}deg)`;
-        sc.style.transform = `rotatez(${ss}deg)`;
+        hr.style.transform = `rotatez( ${hh+180}deg)`;
+        mn.style.transform = `rotatez(${mm+180}deg)`;
+        sc.style.transform = `rotatez(${ss+180}deg)`;
         
     });
 </script>
