@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    background: url("Background.png") no-repeat center fixed ;
+    background: url("https://t0.gstatic.com/images?q=tbn:ANd9GcRHr_dnFOznmfnZCnZVKqv9D3hzrU1cZI2MmUhZPaXyWe_TrHvp") no-repeat center fixed ;
     background-size: cover;
 }
 body{
@@ -18,7 +18,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('/clocks.png');
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWl9gmEaUGWnFsnZ04n38t2MH6PbYZNo7S6HsiDGoRAg-XsJHz');
     filter: brightness(125%);
     background-color: rgba(255,255,255,0.60 );
     backdrop-filter: blur(20px);
